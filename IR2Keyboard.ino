@@ -2,8 +2,9 @@
 this is just an example of creative (maybe useful) use of IR in a PC, as a media center or some other automatizations.
 the idea is fordward the IR commands (from any spare remote you may have) to keyboard pulses, combos, shortcuts, etc.
 Keyboard funtions only available on "leonardo" and "micro". for more keys read into  https://www.arduino.cc/en/Reference/KeyboardModifiers
-Remote class emulate media keys. need to be added manually to the arduino lib.  http://stefanjones.ca/blog/arduino-leonardo-remote-multimedia-keys/
 for IR decoding im using the amazing lib from:  http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html  
+Remote class emulate media keys. need to be added manually to the arduino lib.  http://stefanjones.ca/blog/arduino-leonardo-remote-multimedia-keys/
+this is optional, you dont need Remote class to run the IR or Keyboard; its only for media keys
  */
  
  
